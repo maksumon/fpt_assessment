@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there 99999 points 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#e1e8ee",
+        "borderWidth": 1,
+        "elevation": 5,
+        "margin": 15,
+        "marginBottom": 0,
+        "marginStart": 2,
+        "padding": 15,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 3.84,
+        "width": 260,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/advance_health_screening.jpeg",
+            }
+          }
+          style={
+            Object {
+              "height": 96,
+              "marginHorizontal": 10,
+              "marginVertical": 5,
+              "width": 64,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "flexShrink": 1,
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#242424",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginTop": 5,
+              }
+            }
+          >
+            Advanced Health Screening
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignItems": "flex-end",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                  "flexShrink": 1,
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Earn up to
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#87ceeb",
+                      "fontSize": 14,
+                      "marginTop": 5,
+                    }
+                  }
+                >
+                  99999
+                   
+                </Text>
+                pts
+              </Text>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#900",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "bottom": 0,
+                    "position": "absolute",
+                    "right": 0,
+                  },
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly when there is no item 1`] = `<View />`;
+
+exports[`renders correctly when there is no point in the item 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "borderColor": "#e1e8ee",
+        "borderWidth": 1,
+        "elevation": 5,
+        "margin": 15,
+        "marginBottom": 0,
+        "marginStart": 2,
+        "padding": 15,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.25,
+        "shadowRadius": 3.84,
+        "width": 260,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "transparent",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/advance_health_screening.jpeg",
+            }
+          }
+          style={
+            Object {
+              "height": 96,
+              "marginHorizontal": 10,
+              "marginVertical": 5,
+              "width": 64,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "flexShrink": 1,
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#242424",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginTop": 5,
+              }
+            }
+          >
+            Advanced Health Screening
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                Object {
+                  "alignItems": "flex-end",
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flexDirection": "column",
+                  "flexShrink": 1,
+                  "justifyContent": "space-between",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                Earn up to
+              </Text>
+              <Text
+                style={
+                  Object {
+                    "color": "#242424",
+                    "fontSize": 14,
+                    "marginTop": 5,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#87ceeb",
+                      "fontSize": 14,
+                      "marginTop": 5,
+                    }
+                  }
+                >
+                   
+                </Text>
+                pts
+              </Text>
+            </View>
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#900",
+                    "fontSize": 15,
+                  },
+                  Object {
+                    "bottom": 0,
+                    "position": "absolute",
+                    "right": 0,
+                  },
+                  Object {
+                    "fontFamily": "FontAwesome",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

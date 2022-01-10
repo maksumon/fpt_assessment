@@ -145,7 +145,6 @@
 				7FD3B87971D3F756A67BBB63 /* Pods-fpt_assessment-fpt_assessmentTests.debug.xcconfig */,
 				7DBBD528C1E7EF9D23D64BFF /* Pods-fpt_assessment-fpt_assessmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

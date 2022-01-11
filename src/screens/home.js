@@ -6,8 +6,8 @@ import {
   StatusBar,
   Text,
   View,
-  Button,
   FlatList,
+  TouchableOpacity,
 } from 'react-native';
 import {signOut, useAuthDispatch} from '../contexts';
 import {
@@ -64,11 +64,11 @@ export const Home = ({navigation}) => {
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerRight: () => (
-        <Button
-          onPress={() => signOut(dispatch, navigation)}
-          title="Sign Out"
-          color="#FFFFFF"
-        />
+        <TouchableOpacity
+          style={styles.buttonSignOut}
+          onPress={() => signOut(dispatch, navigation)}>
+          <Text style={styles.textButton}>Sign Out</Text>
+        </TouchableOpacity>
       ),
     });
   }, [dispatch, navigation]);
@@ -119,5 +119,13 @@ const styles = StyleSheet.create({
     color: '#000000',
     marginTop: 20,
     marginBottom: 5,
+  },
+  buttonSignOut: {
+    alignItems: 'center',
+    padding: 10,
+  },
+  textButton: {
+    fontSize: 15,
+    color: '#FFFFFF',
   },
 });
